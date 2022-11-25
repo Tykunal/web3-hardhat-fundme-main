@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="index.js" type="module"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fund Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="https://codetheweb.blog/assets/img/icon2.png">
+    <nav>
+      <h1>
+        FUND ME
+      </h1>
+      <p>Crowd Funding Blockchain Based</p>
+    </nav>
+  </header>
+  <div class="BB">
+    <button id="showmainbutton" class="mb1"> Main</button>
+    <button id="showfundbutton" class="mb2"> Fund</button>
+    <h1 id="connectheading">Connect your Metamask Account:</h1>
+    <button id="connectbutton" class="myButton">Connect your Wallet</button>
+    <hr>
+    <div id="mainPage">
+      <div id="mainInfo">
+        <h2>This is a Crowd Funding Decentralized App, based on blockchain technology.</h2>
+        <h3>
+          * Since it is based on blockchain technology, it is completely Decentralized.<br>
+          * Once a transaction has been sent it cannot be changed or reverted.<br>
+          * It is Highy secure and reliable.<br>
+        </h3>
+        <h4>This Project is Created by team Falcons:</h4>
+        <h5>
+          * Krishna Tyagi<br>
+          * Kunal Tyagi<br>
+          * Prasoon Rajput<br>
+        </h5>
+      </div>
+    </div>
+    <div id="fund" style="display:none">
+      <h2>Enter the amount in ether to send to the contract</h2>
+      <br />
+      <input id="ethamount" placeholder="Enter Amount in Ethereum" />
+      <button id="fundmebutton">Fund Me</button><br />
+      <h2 id="transactionResponseHTML"></h2>
+      <hr>
+    </div>
+  </div>
+</body>
+
+</html>
